@@ -1,56 +1,176 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2907
-\cocoatextscaling1\cocoaplatform1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
-
-\f0\fs24 \cf0 BEGIN:VCALENDAR\
-VERSION:2.0\
-PRODID:-//Mis Partidos//ChatGPT//ES\
-CALSCALE:GREGORIAN\
-METHOD:PUBLISH\
-X-WR-CALNAME:Mis Partidos\
-X-WR-TIMEZONE:America/Lima\
-BEGIN:VEVENT\
-UID:barcelona-racing-santander-la-liga-2026-27-6@partidos-chatgpt\
-DTSTAMP:20260916T180000Z\
-DTSTART;TZID=America/Lima:20260916T153000\
-DTEND;TZID=America/Lima:20260916T173000\
-SUMMARY:\uc0\u9917  FC Barcelona vs Racing de Santander\
-DESCRIPTION:Competici\'f3n: La Liga\\nEquipo: FC Barcelona\\nRival: Racing de Santander\\nZona horaria: America/Lima\
-STATUS:CONFIRMED\
-BEGIN:VALARM\
-TRIGGER:-PT5M\
-ACTION:DISPLAY\
-DESCRIPTION:\uc0\u9917  El partido comienza en 5 minutos\
-END:VALARM\
-END:VEVENT\
-BEGIN:VEVENT\
-UID:manchester-united-brighton-efl-cup-2026-27-3@partidos-chatgpt\
-DTSTAMP:20260916T180000Z\
-DTSTART;TZID=America/Lima:20260916T160000\
-DTEND;TZID=America/Lima:20260916T180000\
-SUMMARY:\uc0\u9917  Manchester United vs Brighton & Hove Albion\
-DESCRIPTION:Competici\'f3n: EFL Cup\\nEquipo: Manchester United\\nRival: Brighton & Hove Albion\\nZona horaria: America/Lima\
-STATUS:CONFIRMED\
-BEGIN:VALARM\
-TRIGGER:-PT5M\
-ACTION:DISPLAY\
-DESCRIPTION:\uc0\u9917  El partido comienza en 5 minutos\
-END:VALARM\
-END:VEVENT\
-BEGIN:VEVENT\
-UID:universitario-de-deportes-deportivo-garcilaso-liga-1-2026-27-10@partidos-chatgpt\
-DTSTAMP:20260916T180000Z\
-DTSTART;TZID=America/Lima:20260920T010000\
-DTEND;TZID=America/Lima:20260920T030000\
-SUMMARY:\uc0\u9917  Universitario de Deportes vs Deportivo Garcilaso\
-DESCRIPTION:Competici\'f3n: Liga 1\\nEquipo: Universitario de Deportes\\nRival: Deportivo Garcilaso\\nZona horaria: America/Lima\
-STATUS:CONFIRMED\
-BEGIN:VALARM\
-TRIGGER:-PT5M\
-ACTION:DISPLAY\
-DESCRIPTION:\uc0\u9917  El partido comienza en 5 minutos\
-END:VALARM\
-END:VEVENT\
-END:VCALENDAR}
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Mis Partidos//ChatGPT//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Mis Partidos
+X-WR-TIMEZONE:America/Lima
+BEGIN:VEVENT
+UID:barcelona-racing-club-laliga-2026-2026-20260916@partidos-chatgpt
+DTSTAMP:20260916T180000Z
+DTSTART;TZID=America/Lima:20260916T163000
+DTEND;TZID=America/Lima:20260916T183000
+SUMMARY:⚽ FC Barcelona vs R. Racing Club
+DESCRIPTION:Competición: LALIGA EA SPORTS\nEquipo: FC Barcelona\nRival: R. Racing Club\nZona horaria: America/Lima
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:⚽ El partido comienza en 5 minutos
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:barcelona-sevilla-fc-laliga-2026-2026-20260919@partidos-chatgpt
+DTSTAMP:20260916T180000Z
+DTSTART;TZID=America/Lima:20260919T160000
+DTEND;TZID=America/Lima:20260919T180000
+SUMMARY:⚽ Sevilla FC vs FC Barcelona
+DESCRIPTION:Competición: LALIGA EA SPORTS\nEquipo: FC Barcelona\nRival: Sevilla FC\nZona horaria: America/Lima
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:⚽ El partido comienza en 5 minutos
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:barcelona-getafe-cf-laliga-2026-2026-20261010@partidos-chatgpt
+DTSTAMP:20260916T180000Z
+DTSTART;TZID=America/Lima:20261010T123000
+DTEND;TZID=America/Lima:20261010T143000
+SUMMARY:⚽ FC Barcelona vs Getafe CF
+DESCRIPTION:Competición: LALIGA EA SPORTS\nEquipo: FC Barcelona\nRival: Getafe CF\nZona horaria: America/Lima
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:⚽ El partido comienza en 5 minutos
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:barcelona-galatasaray-uefa-champions-league-2026-2026-20261013@partidos-chatgpt
+DTSTAMP:20260916T180000Z
+DTSTART;TZID=America/Lima:20261013T160000
+DTEND;TZID=America/Lima:20261013T180000
+SUMMARY:⚽ Galatasaray vs FC Barcelona
+DESCRIPTION:Competición: UEFA Champions League\nEquipo: FC Barcelona\nRival: Galatasaray\nZona horaria: America/Lima
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:⚽ El partido comienza en 5 minutos
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:barcelona-psg-uefa-champions-league-2026-2026-20261020@partidos-chatgpt
+DTSTAMP:20260916T180000Z
+DTSTART;TZID=America/Lima:20261020T160000
+DTEND;TZID=America/Lima:20261020T180000
+SUMMARY:⚽ PSG vs FC Barcelona
+DESCRIPTION:Competición: UEFA Champions League\nEquipo: FC Barcelona\nRival: PSG\nZona horaria: America/Lima
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:⚽ El partido comienza en 5 minutos
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:manchester-united-atletico-madrid-uefa-champions-league-2026-2026-20261013@partidos-chatgpt
+DTSTAMP:20260916T180000Z
+DTSTART;TZID=America/Lima:20261013T160000
+DTEND;TZID=America/Lima:20261013T180000
+SUMMARY:⚽ Atlético de Madrid vs Manchester United
+DESCRIPTION:Competición: UEFA Champions League\nEquipo: Manchester United\nRival: Atlético de Madrid\nZona horaria: America/Lima
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:⚽ El partido comienza en 5 minutos
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:manchester-united-como-uefa-champions-league-2026-2026-20261021@partidos-chatgpt
+DTSTAMP:20260916T180000Z
+DTSTART;TZID=America/Lima:20261021T160000
+DTEND;TZID=America/Lima:20261021T180000
+SUMMARY:⚽ Como vs Manchester United
+DESCRIPTION:Competición: UEFA Champions League\nEquipo: Manchester United\nRival: Como\nZona horaria: America/Lima
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:⚽ El partido comienza en 5 minutos
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:manchester-united-roma-uefa-champions-league-2026-2026-20261103@partidos-chatgpt
+DTSTAMP:20260916T180000Z
+DTSTART;TZID=America/Lima:20261103T160000
+DTEND;TZID=America/Lima:20261103T180000
+SUMMARY:⚽ Manchester United vs Roma
+DESCRIPTION:Competición: UEFA Champions League\nEquipo: Manchester United\nRival: Roma\nZona horaria: America/Lima
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:⚽ El partido comienza en 5 minutos
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:manchester-united-sporting-cp-uefa-champions-league-2026-2026-20261125@partidos-chatgpt
+DTSTAMP:20260916T180000Z
+DTSTART;TZID=America/Lima:20261125T160000
+DTEND;TZID=America/Lima:20261125T180000
+SUMMARY:⚽ Sporting CP vs Manchester United
+DESCRIPTION:Competición: UEFA Champions League\nEquipo: Manchester United\nRival: Sporting CP\nZona horaria: America/Lima
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:⚽ El partido comienza en 5 minutos
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:manchester-united-leipzig-uefa-champions-league-2026-2026-20261208@partidos-chatgpt
+DTSTAMP:20260916T180000Z
+DTSTART;TZID=America/Lima:20261208T160000
+DTEND;TZID=America/Lima:20261208T180000
+SUMMARY:⚽ Manchester United vs Leipzig
+DESCRIPTION:Competición: UEFA Champions League\nEquipo: Manchester United\nRival: Leipzig\nZona horaria: America/Lima
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:⚽ El partido comienza en 5 minutos
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:universitario-de-deportes-deportivo-garcilaso-liga1-2026-2026-20260920@partidos-chatgpt
+DTSTAMP:20260916T180000Z
+DTSTART;TZID=America/Lima:20260920T150000
+DTEND;TZID=America/Lima:20260920T170000
+SUMMARY:⚽ Deportivo Garcilaso vs Universitario de Deportes
+DESCRIPTION:Competición: Liga 1 Te Apuesto\nEquipo: Universitario de Deportes\nRival: Deportivo Garcilaso\nZona horaria: America/Lima
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:⚽ El partido comienza en 5 minutos
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:universitario-de-deportes-fbc-melgar-liga1-2026-2026-20261011@partidos-chatgpt
+DTSTAMP:20260916T180000Z
+DTSTART;TZID=America/Lima:20261011T150000
+DTEND;TZID=America/Lima:20261011T170000
+SUMMARY:⚽ Universitario de Deportes vs FBC Melgar
+DESCRIPTION:Competición: Liga 1 Te Apuesto\nEquipo: Universitario de Deportes\nRival: FBC Melgar\nZona horaria: America/Lima
+STATUS:CONFIRMED
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:⚽ El partido comienza en 5 minutos
+END:VALARM
+END:VEVENT
+END:VCALENDAR
