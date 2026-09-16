@@ -3,174 +3,176 @@ VERSION:2.0
 PRODID:-//Mis Partidos//ChatGPT//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Mis Partidos
+X-WR-CALNAME:⚽ Mis Partidos
 X-WR-TIMEZONE:America/Lima
+BEGIN:VTIMEZONE
+TZID:America/Lima
+X-LIC-LOCATION:America/Lima
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0500
+TZNAME:-05
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
-UID:barcelona-racing-club-laliga-2026-2026-20260916@partidos-chatgpt
-DTSTAMP:20260916T180000Z
+UID:fc-barcelona-racing-club-laliga-2026-2026-09-16@partidos-chatgpt
+DTSTAMP:20260916T185000Z
 DTSTART;TZID=America/Lima:20260916T163000
 DTEND;TZID=America/Lima:20260916T183000
-SUMMARY:⚽ FC Barcelona vs R. Racing Club
-DESCRIPTION:Competición: LALIGA EA SPORTS\nEquipo: FC Barcelona\nRival: R. Racing Club\nZona horaria: America/Lima
+SUMMARY:⚽ FC Barcelona 🆚 R. Racing Club · LaLiga EA SPORTS
+LOCATION:Spotify Camp Nou, Barcelona
+DESCRIPTION:🏆 Competición: LaLiga EA SPORTS\n📋 Jornada: 5\n🏠 Local: FC Barcelona\n✈️ Visitante: R. Racing Club\n📍 Estadio: Spotify Camp Nou\n🌎 Ciudad: Barcelona\n📅 Fecha: 16/09/2026\n🕐 Hora Perú: 16:30\n🇵🇪 Zona horaria: America/Lima\n⏱️ Duración calendario: 2 horas
 STATUS:CONFIRMED
+TRANSP:OPAQUE
 BEGIN:VALARM
 TRIGGER:-PT5M
 ACTION:DISPLAY
-DESCRIPTION:⚽ El partido comienza en 5 minutos
+DESCRIPTION:⚽ ¡El partido comienza en 5 minutos!
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:barcelona-sevilla-fc-laliga-2026-2026-20260919@partidos-chatgpt
-DTSTAMP:20260916T180000Z
+UID:fc-barcelona-sevilla-fc-laliga-2026-2026-09-19@partidos-chatgpt
+DTSTAMP:20260916T185000Z
 DTSTART;TZID=America/Lima:20260919T160000
 DTEND;TZID=America/Lima:20260919T180000
-SUMMARY:⚽ Sevilla FC vs FC Barcelona
-DESCRIPTION:Competición: LALIGA EA SPORTS\nEquipo: FC Barcelona\nRival: Sevilla FC\nZona horaria: America/Lima
+SUMMARY:⚽ FC Barcelona 🆚 Sevilla FC · LaLiga EA SPORTS
+LOCATION:Ramón Sánchez Pizjuán, Sevilla
+DESCRIPTION:🏆 Competición: LaLiga EA SPORTS\n📋 Jornada: 6\n🏠 Local: Sevilla FC\n✈️ Visitante: FC Barcelona\n📍 Estadio: Ramón Sánchez Pizjuán\n🌎 Ciudad: Sevilla\n📅 Fecha: 19/09/2026\n🕐 Hora Perú: 16:00\n🇵🇪 Zona horaria: America/Lima\n⏱️ Duración calendario: 2 horas
 STATUS:CONFIRMED
+TRANSP:OPAQUE
 BEGIN:VALARM
 TRIGGER:-PT5M
 ACTION:DISPLAY
-DESCRIPTION:⚽ El partido comienza en 5 minutos
+DESCRIPTION:⚽ ¡El partido comienza en 5 minutos!
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:barcelona-getafe-cf-laliga-2026-2026-20261010@partidos-chatgpt
-DTSTAMP:20260916T180000Z
-DTSTART;TZID=America/Lima:20261010T123000
-DTEND;TZID=America/Lima:20261010T143000
-SUMMARY:⚽ FC Barcelona vs Getafe CF
-DESCRIPTION:Competición: LALIGA EA SPORTS\nEquipo: FC Barcelona\nRival: Getafe CF\nZona horaria: America/Lima
+UID:fc-barcelona-getafe-cf-laliga-2026-2026-10-10@partidos-chatgpt
+DTSTAMP:20260916T185000Z
+DTSTART;TZID=America/Lima:20261010T133000
+DTEND;TZID=America/Lima:20261010T153000
+SUMMARY:⚽ FC Barcelona 🆚 Getafe CF · LaLiga EA SPORTS
+LOCATION:Spotify Camp Nou, Barcelona
+DESCRIPTION:🏆 Competición: LaLiga EA SPORTS\n📋 Jornada: 7\n🏠 Local: FC Barcelona\n✈️ Visitante: Getafe CF\n📍 Estadio: Spotify Camp Nou\n🌎 Ciudad: Barcelona\n📅 Fecha: 10/10/2026\n🕐 Hora Perú: 13:30\n🇵🇪 Zona horaria: America/Lima\n⏱️ Duración calendario: 2 horas
 STATUS:CONFIRMED
+TRANSP:OPAQUE
 BEGIN:VALARM
 TRIGGER:-PT5M
 ACTION:DISPLAY
-DESCRIPTION:⚽ El partido comienza en 5 minutos
+DESCRIPTION:⚽ ¡El partido comienza en 5 minutos!
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:barcelona-galatasaray-uefa-champions-league-2026-2026-20261013@partidos-chatgpt
-DTSTAMP:20260916T180000Z
+UID:fc-barcelona-galatasaray-uefa-champions-league-2026-2026-10-13@partidos-chatgpt
+DTSTAMP:20260916T185000Z
 DTSTART;TZID=America/Lima:20261013T160000
 DTEND;TZID=America/Lima:20261013T180000
-SUMMARY:⚽ Galatasaray vs FC Barcelona
-DESCRIPTION:Competición: UEFA Champions League\nEquipo: FC Barcelona\nRival: Galatasaray\nZona horaria: America/Lima
+SUMMARY:⚽ FC Barcelona 🆚 Galatasaray · UEFA Champions League
+LOCATION:Türk Telekom Stadium, Estambul
+DESCRIPTION:🏆 Competición: UEFA Champions League\n📋 Jornada: 2\n🏠 Local: Galatasaray\n✈️ Visitante: FC Barcelona\n📍 Estadio: Türk Telekom Stadium\n🌎 Ciudad: Estambul\n📅 Fecha: 13/10/2026\n🕐 Hora Perú: 16:00\n🇵🇪 Zona horaria: America/Lima\n⏱️ Duración calendario: 2 horas
 STATUS:CONFIRMED
+TRANSP:OPAQUE
 BEGIN:VALARM
 TRIGGER:-PT5M
 ACTION:DISPLAY
-DESCRIPTION:⚽ El partido comienza en 5 minutos
+DESCRIPTION:⚽ ¡El partido comienza en 5 minutos!
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:barcelona-psg-uefa-champions-league-2026-2026-20261020@partidos-chatgpt
-DTSTAMP:20260916T180000Z
+UID:fc-barcelona-psg-uefa-champions-league-2026-2026-10-20@partidos-chatgpt
+DTSTAMP:20260916T185000Z
 DTSTART;TZID=America/Lima:20261020T160000
 DTEND;TZID=America/Lima:20261020T180000
-SUMMARY:⚽ PSG vs FC Barcelona
-DESCRIPTION:Competición: UEFA Champions League\nEquipo: FC Barcelona\nRival: PSG\nZona horaria: America/Lima
+SUMMARY:⚽ FC Barcelona 🆚 PSG · UEFA Champions League
+LOCATION:Parc des Princes, París
+DESCRIPTION:🏆 Competición: UEFA Champions League\n📋 Jornada: 3\n🏠 Local: PSG\n✈️ Visitante: FC Barcelona\n📍 Estadio: Parc des Princes\n🌎 Ciudad: París\n📅 Fecha: 20/10/2026\n🕐 Hora Perú: 16:00\n🇵🇪 Zona horaria: America/Lima\n⏱️ Duración calendario: 2 horas
 STATUS:CONFIRMED
+TRANSP:OPAQUE
 BEGIN:VALARM
 TRIGGER:-PT5M
 ACTION:DISPLAY
-DESCRIPTION:⚽ El partido comienza en 5 minutos
+DESCRIPTION:⚽ ¡El partido comienza en 5 minutos!
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:manchester-united-atletico-madrid-uefa-champions-league-2026-2026-20261013@partidos-chatgpt
-DTSTAMP:20260916T180000Z
-DTSTART;TZID=America/Lima:20261013T160000
-DTEND;TZID=America/Lima:20261013T180000
-SUMMARY:⚽ Atlético de Madrid vs Manchester United
-DESCRIPTION:Competición: UEFA Champions League\nEquipo: Manchester United\nRival: Atlético de Madrid\nZona horaria: America/Lima
+UID:fc-barcelona-real-madrid-laliga-2026-2026-10-25@partidos-chatgpt
+DTSTAMP:20260916T185000Z
+DTSTART;TZID=America/Lima:20261025T160000
+DTEND;TZID=America/Lima:20261025T180000
+SUMMARY:⚽ FC Barcelona 🆚 Real Madrid · LaLiga EA SPORTS
+LOCATION:Spotify Camp Nou, Barcelona
+DESCRIPTION:🏆 Competición: LaLiga EA SPORTS\n📋 Jornada: 8\n🏠 Local: FC Barcelona\n✈️ Visitante: Real Madrid\n📍 Estadio: Spotify Camp Nou\n🌎 Ciudad: Barcelona\n📅 Fecha: 25/10/2026\n🕐 Hora Perú: 16:00\n🇵🇪 Zona horaria: America/Lima\n⏱️ Duración calendario: 2 horas
 STATUS:CONFIRMED
+TRANSP:OPAQUE
 BEGIN:VALARM
 TRIGGER:-PT5M
 ACTION:DISPLAY
-DESCRIPTION:⚽ El partido comienza en 5 minutos
+DESCRIPTION:⚽ ¡El partido comienza en 5 minutos!
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:manchester-united-como-uefa-champions-league-2026-2026-20261021@partidos-chatgpt
-DTSTAMP:20260916T180000Z
-DTSTART;TZID=America/Lima:20261021T160000
-DTEND;TZID=America/Lima:20261021T180000
-SUMMARY:⚽ Como vs Manchester United
-DESCRIPTION:Competición: UEFA Champions League\nEquipo: Manchester United\nRival: Como\nZona horaria: America/Lima
+UID:manchester-united-manchester-city-premier-league-2026-2026-09-16@partidos-chatgpt
+DTSTAMP:20260916T185000Z
+DTSTART;TZID=America/Lima:20260916T160000
+DTEND;TZID=America/Lima:20260916T180000
+SUMMARY:⚽ Manchester United 🆚 Manchester City · Premier League
+LOCATION:Old Trafford, Manchester
+DESCRIPTION:🏆 Competición: Premier League\n📋 Jornada: 5\n🏠 Local: Manchester United\n✈️ Visitante: Manchester City\n📍 Estadio: Old Trafford\n🌎 Ciudad: Manchester\n📅 Fecha: 16/09/2026\n🕐 Hora Perú: 16:00\n🇵🇪 Zona horaria: America/Lima\n⏱️ Duración calendario: 2 horas
 STATUS:CONFIRMED
+TRANSP:OPAQUE
 BEGIN:VALARM
 TRIGGER:-PT5M
 ACTION:DISPLAY
-DESCRIPTION:⚽ El partido comienza en 5 minutos
+DESCRIPTION:⚽ ¡El partido comienza en 5 minutos!
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:manchester-united-roma-uefa-champions-league-2026-2026-20261103@partidos-chatgpt
-DTSTAMP:20260916T180000Z
-DTSTART;TZID=America/Lima:20261103T160000
-DTEND;TZID=America/Lima:20261103T180000
-SUMMARY:⚽ Manchester United vs Roma
-DESCRIPTION:Competición: UEFA Champions League\nEquipo: Manchester United\nRival: Roma\nZona horaria: America/Lima
+UID:manchester-united-brighton-and-hove-albion-league-cup-2026-2026-09-16@partidos-chatgpt
+DTSTAMP:20260916T185000Z
+DTSTART;TZID=America/Lima:20260916T160000
+DTEND;TZID=America/Lima:20260916T180000
+SUMMARY:⚽ Manchester United 🆚 Brighton & Hove Albion · Carabao Cup
+LOCATION:Old Trafford, Manchester
+DESCRIPTION:🏆 Competición: Carabao Cup\n📋 Ronda: 3\n🏠 Local: Manchester United\n✈️ Visitante: Brighton & Hove Albion\n📍 Estadio: Old Trafford\n🌎 Ciudad: Manchester\n📅 Fecha: 16/09/2026\n🕐 Hora Perú: 16:00\n🇵🇪 Zona horaria: America/Lima\n⏱️ Duración calendario: 2 horas
 STATUS:CONFIRMED
+TRANSP:OPAQUE
 BEGIN:VALARM
 TRIGGER:-PT5M
 ACTION:DISPLAY
-DESCRIPTION:⚽ El partido comienza en 5 minutos
+DESCRIPTION:⚽ ¡El partido comienza en 5 minutos!
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:manchester-united-sporting-cp-uefa-champions-league-2026-2026-20261125@partidos-chatgpt
-DTSTAMP:20260916T180000Z
-DTSTART;TZID=America/Lima:20261125T160000
-DTEND;TZID=America/Lima:20261125T180000
-SUMMARY:⚽ Sporting CP vs Manchester United
-DESCRIPTION:Competición: UEFA Champions League\nEquipo: Manchester United\nRival: Sporting CP\nZona horaria: America/Lima
+UID:manchester-united-ipswich-town-championship-2026-2026-09-16@partidos-chatgpt
+DTSTAMP:20260916T185000Z
+DTSTART;TZID=America/Lima:20260916T160000
+DTEND;TZID=America/Lima:20260916T180000
+SUMMARY:⚽ Manchester United 🆚 Ipswich Town · EFL Championship
+LOCATION:Old Trafford, Manchester
+DESCRIPTION:🏆 Competición: EFL Championship\n📋 Jornada: 5\n🏠 Local: Manchester United\n✈️ Visitante: Ipswich Town\n📍 Estadio: Old Trafford\n🌎 Ciudad: Manchester\n📅 Fecha: 16/09/2026\n🕐 Hora Perú: 16:00\n🇵🇪 Zona horaria: America/Lima\n⏱️ Duración calendario: 2 horas
 STATUS:CONFIRMED
+TRANSP:OPAQUE
 BEGIN:VALARM
 TRIGGER:-PT5M
 ACTION:DISPLAY
-DESCRIPTION:⚽ El partido comienza en 5 minutos
+DESCRIPTION:⚽ ¡El partido comienza en 5 minutos!
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:manchester-united-leipzig-uefa-champions-league-2026-2026-20261208@partidos-chatgpt
-DTSTAMP:20260916T180000Z
-DTSTART;TZID=America/Lima:20261208T160000
-DTEND;TZID=America/Lima:20261208T180000
-SUMMARY:⚽ Manchester United vs Leipzig
-DESCRIPTION:Competición: UEFA Champions League\nEquipo: Manchester United\nRival: Leipzig\nZona horaria: America/Lima
+UID:universitario-de-deportes-deportivo-garcilaso-liga-1-2026-2026-09-19@partidos-chatgpt
+DTSTAMP:20260916T185000Z
+DTSTART;TZID=America/Lima:20260919T180000
+DTEND;TZID=America/Lima:20260919T200000
+SUMMARY:⚽ Universitario de Deportes 🆚 Deportivo Garcilaso · Liga 1
+LOCATION:Estadio Inca Garcilaso de la Vega, Cusco
+DESCRIPTION:🏆 Competición: Liga 1\n📋 Fecha: 10\n🏠 Local: Deportivo Garcilaso\n✈️ Visitante: Universitario de Deportes\n📍 Estadio: Estadio Inca Garcilaso de la Vega\n🌎 Ciudad: Cusco\n📅 Fecha: 19/09/2026\n🕐 Hora Perú: 18:00\n🇵🇪 Zona horaria: America/Lima\n⏱️ Duración calendario: 2 horas
 STATUS:CONFIRMED
+TRANSP:OPAQUE
 BEGIN:VALARM
 TRIGGER:-PT5M
 ACTION:DISPLAY
-DESCRIPTION:⚽ El partido comienza en 5 minutos
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:universitario-de-deportes-deportivo-garcilaso-liga1-2026-2026-20260920@partidos-chatgpt
-DTSTAMP:20260916T180000Z
-DTSTART;TZID=America/Lima:20260920T150000
-DTEND;TZID=America/Lima:20260920T170000
-SUMMARY:⚽ Deportivo Garcilaso vs Universitario de Deportes
-DESCRIPTION:Competición: Liga 1 Te Apuesto\nEquipo: Universitario de Deportes\nRival: Deportivo Garcilaso\nZona horaria: America/Lima
-STATUS:CONFIRMED
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:⚽ El partido comienza en 5 minutos
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:universitario-de-deportes-fbc-melgar-liga1-2026-2026-20261011@partidos-chatgpt
-DTSTAMP:20260916T180000Z
-DTSTART;TZID=America/Lima:20261011T150000
-DTEND;TZID=America/Lima:20261011T170000
-SUMMARY:⚽ Universitario de Deportes vs FBC Melgar
-DESCRIPTION:Competición: Liga 1 Te Apuesto\nEquipo: Universitario de Deportes\nRival: FBC Melgar\nZona horaria: America/Lima
-STATUS:CONFIRMED
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:⚽ El partido comienza en 5 minutos
+DESCRIPTION:⚽ ¡El partido comienza en 5 minutos!
 END:VALARM
 END:VEVENT
 END:VCALENDAR
