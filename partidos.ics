@@ -15,4 +15,52 @@ TZNAME:-05
 DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
+BEGIN:VEVENT
+UID:fc-barcelona-racing-santander-laliga-2026-2026-09-16@partidos-chatgpt
+DTSTAMP:20260916T154500Z
+DTSTART;TZID=America/Lima:20260916T154500
+DTEND;TZID=America/Lima:20260916T174500
+SUMMARY:⚽ FC Barcelona 🆚 Racing de Santander · LaLiga
+LOCATION:Spotify Camp Nou, Barcelona
+DESCRIPTION:🏆 Competición: LaLiga\n📋 Jornada: 6\n🏠 Local: FC Barcelona\n✈️ Visitante: Racing de Santander\n📍 Estadio: Spotify Camp Nou\n🌎 Ciudad: Barcelona\n📅 Fecha: 16/09/2026\n🕐 Hora Perú: 15:45\n🇵🇪 Zona horaria: America/Lima\n⏱️ Duración calendario: 2 horas
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:⚽ ¡El partido comienza en 5 minutos!
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:manchester-united-brighton-efl-cup-2026-2026-09-16@partidos-chatgpt
+DTSTAMP:20260916T154500Z
+DTSTART;TZID=America/Lima:20260916T154500
+DTEND;TZID=America/Lima:20260916T174500
+SUMMARY:⚽ Manchester United 🆚 Brighton & Hove Albion · EFL Cup
+LOCATION:Old Trafford, Manchester
+DESCRIPTION:🏆 Competición: EFL Cup\n📋 Ronda: 3\n🏠 Local: Manchester United\n✈️ Visitante: Brighton & Hove Albion\n📍 Estadio: Old Trafford\n🌎 Ciudad: Manchester\n📅 Fecha: 16/09/2026\n🕐 Hora Perú: 15:45\n🇵🇪 Zona horaria: America/Lima\n⏱️ Duración calendario: 2 horas
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:⚽ ¡El partido comienza en 5 minutos!
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:universitario-de-deportes-deportivo-garcilaso-liga-1-2026-2026-09-20@partidos-chatgpt
+DTSTAMP:20260916T154500Z
+DTSTART;TZID=America/Lima:20260920T010000
+DTEND;TZID=America/Lima:20260920T030000
+SUMMARY:⚽ Universitario de Deportes 🆚 Deportivo Garcilaso · Liga 1
+LOCATION:Estadio Monumental, Lima
+DESCRIPTION:🏆 Competición: Liga 1\n📋 Jornada: 10\n🏠 Local: Universitario de Deportes\n✈️ Visitante: Deportivo Garcilaso\n📍 Estadio: Estadio Monumental\n🌎 Ciudad: Lima\n📅 Fecha: 20/09/2026\n🕐 Hora Perú: 01:00\n🇵🇪 Zona horaria: America/Lima\n⏱️ Duración calendario: 2 horas
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:⚽ ¡El partido comienza en 5 minutos!
+END:VALARM
+END:VEVENT
 END:VCALENDAR
