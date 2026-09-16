@@ -15,4 +15,38 @@ TZNAME:-05
 DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
+BEGIN:VEVENT
+UID:fc-barcelona-racing-de-santander-la-liga-2026-09-16@partidos-chatgpt
+DTSTAMP:20260916T201500Z
+DTSTART;TZID=America/Lima:20260916T153000
+DTEND;TZID=America/Lima:20260916T173000
+SUMMARY:⚽ FC Barcelona 🆚 Racing de Santander · La Liga
+LOCATION:Spotify Camp Nou, Barcelona
+DESCRIPTION:🏆 Competición: La Liga\n📋 Jornada: 6\n🏠 Local: FC Barcelona\n✈️ Visitante: Racing de Santander\n📍 Estadio: Spotify Camp Nou\n🌎 Ciudad: Barcelona\n📅 Fecha Perú: 16/09/2026\n🕐 Hora Perú: 15:30\n🌍 Hora original: 21:30 CEST\n🇵🇪 Zona horaria final: America/Lima\n⏱️ Duración calendario: 2 horas
+CATEGORIES:Fútbol,Partido
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:⚽ ¡El partido comienza en 5 minutos!
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:manchester-united-brighton-and-hove-albion-premier-league-2026-09-16@partidos-chatgpt
+DTSTAMP:20260916T201500Z
+DTSTART;TZID=America/Lima:20260916T150000
+DTEND;TZID=America/Lima:20260916T170000
+SUMMARY:⚽ Manchester United 🆚 Brighton & Hove Albion · Premier League
+LOCATION:Old Trafford, Manchester
+DESCRIPTION:🏆 Competición: Premier League\n📋 Jornada: 5\n🏠 Local: Manchester United\n✈️ Visitante: Brighton & Hove Albion\n📍 Estadio: Old Trafford\n🌎 Ciudad: Manchester\n📅 Fecha Perú: 16/09/2026\n🕐 Hora Perú: 15:00\n🌍 Hora original: 21:00 BST\n🇵🇪 Zona horaria final: America/Lima\n⏱️ Duración calendario: 2 horas
+CATEGORIES:Fútbol,Partido
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:⚽ ¡El partido comienza en 5 minutos!
+END:VALARM
+END:VEVENT
 END:VCALENDAR
