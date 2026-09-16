@@ -6,7 +6,7 @@ METHOD:PUBLISH
 X-WR-CALNAME:Mis Partidos
 X-WR-TIMEZONE:America/Lima
 BEGIN:VEVENT
-UID:fcbarcelona-racing-santander-laliga-2026-2027-6@partidos-chatgpt
+UID:fcbarcelona-racingsantander-laliga2026-2026-06@partidos-chatgpt
 DTSTAMP:20260916T180000Z
 DTSTART;TZID=America/Lima:20260916T153000
 DTEND;TZID=America/Lima:20260916T173000
@@ -20,12 +20,12 @@ DESCRIPTION:⚽ El partido comienza en 5 minutos
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:manchester-united-brighton-carabao-cup-2026-2027-3@partidos-chatgpt
+UID:manchesterunited-brighton-eflcup2026-2026-03@partidos-chatgpt
 DTSTAMP:20260916T180000Z
 DTSTART;TZID=America/Lima:20260916T160000
 DTEND;TZID=America/Lima:20260916T180000
 SUMMARY:⚽ Manchester United vs Brighton & Hove Albion
-DESCRIPTION:Competición: Carabao Cup\nEquipo: Manchester United\nRival: Brighton & Hove Albion\nZona horaria: America/Lima
+DESCRIPTION:Competición: EFL Cup\nEquipo: Manchester United\nRival: Brighton & Hove Albion\nZona horaria: America/Lima
 STATUS:CONFIRMED
 BEGIN:VALARM
 TRIGGER:-PT5M
@@ -34,12 +34,12 @@ DESCRIPTION:⚽ El partido comienza en 5 minutos
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:universitario-de-deportes-deportivo-garcilaso-liga1-2026-2027-10@partidos-chatgpt
+UID:universitario-deportes-deportivo-garcilaso-liga1peru2026-2026-10@partidos-chatgpt
 DTSTAMP:20260916T180000Z
 DTSTART;TZID=America/Lima:20260920T010000
 DTEND;TZID=America/Lima:20260920T030000
 SUMMARY:⚽ Universitario de Deportes vs Deportivo Garcilaso
-DESCRIPTION:Competición: Liga 1\nEquipo: Universitario de Deportes\nRival: Deportivo Garcilaso\nZona horaria: America/Lima
+DESCRIPTION:Competición: Liga 1 Perú\nEquipo: Universitario de Deportes\nRival: Deportivo Garcilaso\nZona horaria: America/Lima
 STATUS:CONFIRMED
 BEGIN:VALARM
 TRIGGER:-PT5M
