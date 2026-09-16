@@ -12,10 +12,10 @@ METHOD:PUBLISH\
 X-WR-CALNAME:Mis Partidos\
 X-WR-TIMEZONE:America/Lima\
 BEGIN:VEVENT\
-UID:fc-barcelona-racing-de-santander-la-liga-2026-27-jornada-6@partidos-chatgpt\
-DTSTAMP:2026-09-16T18:24:00Z\
-DTSTART;TZID=America/Lima:2026-09-16T16:30:00\
-DTEND;TZID=America/Lima:2026-09-16T18:30:00\
+UID:fc-barcelona-racing-santander-la-liga-2026-27-jornada-6@partidos-chatgpt\
+DTSTAMP:2026-09-16T18:27:00Z\
+DTSTART;TZID=America/Lima:2026-09-16T15:30:00\
+DTEND;TZID=America/Lima:2026-09-16T17:30:00\
 SUMMARY:\uc0\u9917  FC Barcelona vs Racing de Santander\
 DESCRIPTION:Competici\'f3n: La Liga 2026-27, Jornada 6\\nEquipo: FC Barcelona\\nRival: Racing de Santander\\nZona horaria: America/Lima\
 STATUS:CONFIRMED\
@@ -26,12 +26,12 @@ DESCRIPTION:\uc0\u9917  El partido comienza en 5 minutos\
 END:VALARM\
 END:VEVENT\
 BEGIN:VEVENT\
-UID:manchester-united-brighton-and-hove-albion-carabao-cup-2026-27-ronda-3@partidos-chatgpt\
-DTSTAMP:2026-09-16T18:24:00Z\
-DTSTART;TZID=America/Lima:2026-09-16T16:00:00\
-DTEND;TZID=America/Lima:2026-09-16T18:00:00\
+UID:manchester-united-brighton-carabao-cup-2026-27-3rd-round@partidos-chatgpt\
+DTSTAMP:2026-09-16T18:27:00Z\
+DTSTART;TZID=America/Lima:2026-09-16T15:00:00\
+DTEND;TZID=America/Lima:2026-09-16T17:00:00\
 SUMMARY:\uc0\u9917  Manchester United vs Brighton & Hove Albion\
-DESCRIPTION:Competici\'f3n: Carabao Cup 2026-27, Ronda 3\\nEquipo: Manchester United\\nRival: Brighton & Hove Albion\\nZona horaria: America/Lima\
+DESCRIPTION:Competici\'f3n: Carabao Cup 2026-27, 3\'aa Ronda\\nEquipo: Manchester United\\nRival: Brighton & Hove Albion\\nZona horaria: America/Lima\
 STATUS:CONFIRMED\
 BEGIN:VALARM\
 TRIGGER:-PT5M\
@@ -41,9 +41,9 @@ END:VALARM\
 END:VEVENT\
 BEGIN:VEVENT\
 UID:universitario-de-deportes-deportivo-garcilaso-liga-1-peru-2026-27-clausura-10@partidos-chatgpt\
-DTSTAMP:2026-09-16T18:24:00Z\
-DTSTART;TZID=America/Lima:2026-09-19T23:00:00\
-DTEND;TZID=America/Lima:2026-09-20T01:00:00\
+DTSTAMP:2026-09-16T18:27:00Z\
+DTSTART;TZID=America/Lima:2026-09-19T18:00:00\
+DTEND;TZID=America/Lima:2026-09-19T20:00:00\
 SUMMARY:\uc0\u9917  Universitario de Deportes vs Deportivo Garcilaso\
 DESCRIPTION:Competici\'f3n: Liga 1 Per\'fa 2026-27, Torneo Clausura, Jornada 10\\nEquipo: Universitario de Deportes\\nRival: Deportivo Garcilaso\\nZona horaria: America/Lima\
 STATUS:CONFIRMED\
