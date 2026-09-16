@@ -12,12 +12,13 @@ METHOD:PUBLISH\
 X-WR-CALNAME:Mis Partidos\
 X-WR-TIMEZONE:America/Lima\
 BEGIN:VEVENT\
-UID:fc-barcelona-racing-santander-la-liga-2026-2027-jornada-6@partidos-chatgpt\
-DTSTAMP:2026-09-16T18:32:00Z\
-DTSTART;TZID=America/Lima:2026-09-16T15:30:00\
-DTEND;TZID=America/Lima:2026-09-16T17:30:00\
+UID:barcelona-racing-santander-la-liga-2026-27-jornada-6@partidos-chatgpt\
+DTSTAMP:20260916T180000Z\
+DTSTART;TZID=America/Lima:20260916T153000\
+DTEND;TZID=America/Lima:20260916T173000\
 SUMMARY:\uc0\u9917  FC Barcelona vs Racing de Santander\
-DESCRIPTION:Competici\'f3n: La Liga\\nEquipo: FC Barcelona\\nRival: Racing de Santander\\nZona horaria: America/Lima\\nSTATUS:CONFIRMED\
+DESCRIPTION:Competici\'f3n: La Liga\\nEquipo: FC Barcelona\\nRival: Racing de Santander\\nZona horaria: America/Lima\
+STATUS:CONFIRMED\
 BEGIN:VALARM\
 TRIGGER:-PT5M\
 ACTION:DISPLAY\
@@ -25,12 +26,13 @@ DESCRIPTION:\uc0\u9917  El partido comienza en 5 minutos\
 END:VALARM\
 END:VEVENT\
 BEGIN:VEVENT\
-UID:manchester-united-brighton-carabao-cup-2026-2027-tercera-ronda@partidos-chatgpt\
-DTSTAMP:2026-09-16T18:32:00Z\
-DTSTART;TZID=America/Lima:2026-09-16T16:00:00\
-DTEND;TZID=America/Lima:2026-09-16T18:00:00\
+UID:manchester-united-brighton-premier-league-2026-27-jornada-5@partidos-chatgpt\
+DTSTAMP:20260916T180000Z\
+DTSTART;TZID=America/Lima:20260916T160000\
+DTEND;TZID=America/Lima:20260916T180000\
 SUMMARY:\uc0\u9917  Manchester United vs Brighton & Hove Albion\
-DESCRIPTION:Competici\'f3n: Carabao Cup\\nEquipo: Manchester United\\nRival: Brighton & Hove Albion\\nZona horaria: America/Lima\\nSTATUS:CONFIRMED\
+DESCRIPTION:Competici\'f3n: Premier League\\nEquipo: Manchester United\\nRival: Brighton & Hove Albion\\nZona horaria: America/Lima\
+STATUS:CONFIRMED\
 BEGIN:VALARM\
 TRIGGER:-PT5M\
 ACTION:DISPLAY\
@@ -38,12 +40,13 @@ DESCRIPTION:\uc0\u9917  El partido comienza en 5 minutos\
 END:VALARM\
 END:VEVENT\
 BEGIN:VEVENT\
-UID:universitario-de-deportes-deportivo-garcilaso-liga-1-peru-2026-2027@partidos-chatgpt\
-DTSTAMP:2026-09-16T18:32:00Z\
-DTSTART;TZID=America/Lima:2026-09-20T01:00:00\
-DTEND;TZID=America/Lima:2026-09-20T03:00:00\
+UID:universitario-de-deportes-de-peru-deportivo-garcilaso-liga-1-2026-27-jornada-5@partidos-chatgpt\
+DTSTAMP:20260916T180000Z\
+DTSTART;TZID=America/Lima:20260919T20:00\
+DTEND;TZID=America/Lima:20260919T22:00\
 SUMMARY:\uc0\u9917  Universitario de Deportes vs Deportivo Garcilaso\
-DESCRIPTION:Competici\'f3n: Liga 1 Per\'fa\\nEquipo: Universitario de Deportes\\nRival: Deportivo Garcilaso\\nZona horaria: America/Lima\\nSTATUS:CONFIRMED\
+DESCRIPTION:Competici\'f3n: Liga 1\\nEquipo: Universitario de Deportes\\nRival: Deportivo Garcilaso\\nZona horaria: America/Lima\
+STATUS:CONFIRMED\
 BEGIN:VALARM\
 TRIGGER:-PT5M\
 ACTION:DISPLAY\
