@@ -12,13 +12,12 @@ METHOD:PUBLISH\
 X-WR-CALNAME:Mis Partidos\
 X-WR-TIMEZONE:America/Lima\
 BEGIN:VEVENT\
-UID:fc-barcelona-racing-club-laliga-2026-4@partidos-chatgpt\
-DTSTAMP:2026-09-16T18:19:00Z\
-DTSTART;TZID=America/Lima:2026-09-16T16:30:00\
-DTEND;TZID=America/Lima:2026-09-16T18:30:00\
-SUMMARY:\uc0\u9917  FC Barcelona vs Racing Club\
-DESCRIPTION:Competici\'f3n: LaLiga EA Sports\\nEquipo: FC Barcelona\\nRival: Racing Club\\nZona horaria: America/Lima\
-STATUS:CONFIRMED\
+UID:barcelona-racing-liga-2026-6@partidos-chatgpt\
+DTSTAMP:20260916T182100Z\
+DTSTART;TZID=America/Lima:20260916T16:30:00\
+DTEND;TZID=America/Lima:20260916T18:30:00\
+SUMMARY:\uc0\u9917  FC Barcelona vs Racing de Santander\
+DESCRIPTION:Competici\'f3n: La Liga\\nEquipo: FC Barcelona\\nRival: Racing de Santander\\nZona horaria: America/Lima\\nSTATUS:CONFIRMED\
 BEGIN:VALARM\
 TRIGGER:-PT5M\
 ACTION:DISPLAY\
@@ -26,97 +25,12 @@ DESCRIPTION:\uc0\u9917  El partido comienza en 5 minutos\
 END:VALARM\
 END:VEVENT\
 BEGIN:VEVENT\
-UID:fc-barcelona-sevilla-fc-laliga-2026-5@partidos-chatgpt\
-DTSTAMP:2026-09-16T18:19:00Z\
-DTSTART;TZID=America/Lima:2026-09-19T15:00:00\
-DTEND;TZID=America/Lima:2026-09-19T17:00:00\
-SUMMARY:\uc0\u9917  Sevilla FC vs FC Barcelona\
-DESCRIPTION:Competici\'f3n: LaLiga EA Sports\\nEquipo: FC Barcelona\\nRival: Sevilla FC\\nZona horaria: America/Lima\
-STATUS:CONFIRMED\
-BEGIN:VALARM\
-TRIGGER:-PT5M\
-ACTION:DISPLAY\
-DESCRIPTION:\uc0\u9917  El partido comienza en 5 minutos\
-END:VALARM\
-END:VEVENT\
-BEGIN:VEVENT\
-UID:fc-barcelona-getafe-cf-laliga-2026-6@partidos-chatgpt\
-DTSTAMP:2026-09-16T18:19:00Z\
-DTSTART;TZID=America/Lima:2026-10-10T12:30:00\
-DTEND;TZID=America/Lima:2026-10-10T14:30:00\
-SUMMARY:\uc0\u9917  FC Barcelona vs Getafe CF\
-DESCRIPTION:Competici\'f3n: LaLiga EA Sports\\nEquipo: FC Barcelona\\nRival: Getafe CF\\nZona horaria: America/Lima\
-STATUS:CONFIRMED\
-BEGIN:VALARM\
-TRIGGER:-PT5M\
-ACTION:DISPLAY\
-DESCRIPTION:\uc0\u9917  El partido comienza en 5 minutos\
-END:VALARM\
-END:VEVENT\
-BEGIN:VEVENT\
-UID:fc-barcelona-galatasaray-uefa-champions-league-2026-1@partidos-chatgpt\
-DTSTAMP:2026-09-16T18:19:00Z\
-DTSTART;TZID=America/Lima:2026-10-13T16:00:00\
-DTEND;TZID=America/Lima:2026-10-13T18:00:00\
-SUMMARY:\uc0\u9917  Galatasaray vs FC Barcelona\
-DESCRIPTION:Competici\'f3n: UEFA Champions League\\nEquipo: FC Barcelona\\nRival: Galatasaray\\nZona horaria: America/Lima\
-STATUS:CONFIRMED\
-BEGIN:VALARM\
-TRIGGER:-PT5M\
-ACTION:DISPLAY\
-DESCRIPTION:\uc0\u9917  El partido comienza en 5 minutos\
-END:VALARM\
-END:VEVENT\
-BEGIN:VEVENT\
-UID:fc-barcelona-psg-uefa-champions-league-2026-2@partidos-chatgpt\
-DTSTAMP:2026-09-16T18:19:00Z\
-DTSTART;TZID=America/Lima:2026-10-20T16:00:00\
-DTEND;TZID=America/Lima:2026-10-20T18:00:00\
-SUMMARY:\uc0\u9917  PSG vs FC Barcelona\
-DESCRIPTION:Competici\'f3n: UEFA Champions League\\nEquipo: FC Barcelona\\nRival: PSG\\nZona horaria: America/Lima\
-STATUS:CONFIRMED\
-BEGIN:VALARM\
-TRIGGER:-PT5M\
-ACTION:DISPLAY\
-DESCRIPTION:\uc0\u9917  El partido comienza en 5 minutos\
-END:VALARM\
-END:VEVENT\
-BEGIN:VEVENT\
-UID:manchester-united-manchester-city-premier-league-2026-5@partidos-chatgpt\
-DTSTAMP:2026-09-16T18:19:00Z\
-DTSTART;TZID=America/Lima:2026-09-13T11:00:00\
-DTEND;TZID=America/Lima:2026-09-13T13:00:00\
+UID:manchester-united-manchester-city-premier-league-2026-4@partidos-chatgpt\
+DTSTAMP:20260916T182100Z\
+DTSTART;TZID=America/Lima:20260913T12:30:00\
+DTEND;TZID=America/Lima:20260913T14:30:00\
 SUMMARY:\uc0\u9917  Manchester United vs Manchester City\
-DESCRIPTION:Competici\'f3n: Premier League\\nEquipo: Manchester United\\nRival: Manchester City\\nZona horaria: America/Lima\
-STATUS:CONFIRMED\
-BEGIN:VALARM\
-TRIGGER:-PT5M\
-ACTION:DISPLAY\
-DESCRIPTION:\uc0\u9917  El partido comienza en 5 minutos\
-END:VALARM\
-END:VEVENT\
-BEGIN:VEVENT\
-UID:manchester-united-brighton-and-hove-albion-league-cup-2026-3@partidos-chatgpt\
-DTSTAMP:2026-09-16T18:19:00Z\
-DTSTART;TZID=America/Lima:2026-09-16T15:00:00\
-DTEND;TZID=America/Lima:2026-09-16T17:00:00\
-SUMMARY:\uc0\u9917  Manchester United vs Brighton & Hove Albion\
-DESCRIPTION:Competici\'f3n: Carabao Cup\\nEquipo: Manchester United\\nRival: Brighton & Hove Albion\\nZona horaria: America/Lima\
-STATUS:CONFIRMED\
-BEGIN:VALARM\
-TRIGGER:-PT5M\
-ACTION:DISPLAY\
-DESCRIPTION:\uc0\u9917  El partido comienza en 5 minutos\
-END:VALARM\
-END:VEVENT\
-BEGIN:VEVENT\
-UID:manchester-united-aston-villa-premier-league-2026-6@partidos-chatgpt\
-DTSTAMP:2026-09-16T18:19:00Z\
-DTSTART;TZID=America/Lima:2026-09-30T11:00:00\
-DTEND;TZID=America/Lima:2026-09-30T13:00:00\
-SUMMARY:\uc0\u9917  Manchester United vs Aston Villa\
-DESCRIPTION:Competici\'f3n: Premier League\\nEquipo: Manchester United\\nRival: Aston Villa\\nZona horaria: America/Lima\
-STATUS:CONFIRMED\
+DESCRIPTION:Competici\'f3n: Premier League\\nEquipo: Manchester United\\nRival: Manchester City\\nZona horaria: America/Lima\\nSTATUS:CONFIRMED\
 BEGIN:VALARM\
 TRIGGER:-PT5M\
 ACTION:DISPLAY\
@@ -125,12 +39,11 @@ END:VALARM\
 END:VEVENT\
 BEGIN:VEVENT\
 UID:universitario-de-deportes-deportivo-garcilaso-liga-1-2026-10@partidos-chatgpt\
-DTSTAMP:2026-09-16T18:19:00Z\
-DTSTART;TZID=America/Lima:2026-09-19T18:00:00\
-DTEND;TZID=America/Lima:2026-09-19T20:00:00\
+DTSTAMP:20260916T182100Z\
+DTSTART;TZID=America/Lima:20260919T23:00:00\
+DTEND;TZID=America/Lima:20260920T01:00:00\
 SUMMARY:\uc0\u9917  Universitario de Deportes vs Deportivo Garcilaso\
-DESCRIPTION:Competici\'f3n: Liga 1 Te Apuesto - Clausura 2026\\nEquipo: Universitario de Deportes\\nRival: Deportivo Garcilaso\\nZona horaria: America/Lima\
-STATUS:CONFIRMED\
+DESCRIPTION:Competici\'f3n: Liga 1\\nEquipo: Universitario de Deportes\\nRival: Deportivo Garcilaso\\nZona horaria: America/Lima\\nSTATUS:CONFIRMED\
 BEGIN:VALARM\
 TRIGGER:-PT5M\
 ACTION:DISPLAY\
