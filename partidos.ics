@@ -16,12 +16,13 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fc-barcelona-racing-santander-laliga-2026-2026-09-16@partidos-chatgpt
-DTSTAMP:20260916T183000Z
-DTSTART;TZID=America/Lima:20260916T153000
-DTEND;TZID=America/Lima:20260916T173000
-SUMMARY:⚽ FC Barcelona 🆚 Racing de Santander · LaLiga
-DESCRIPTION:🏆 Competición: LaLiga\n📋 Jornada: 6\n🏠 Local: FC Barcelona\n✈️ Visitante: Racing de Santander\n📍 Estadio: Spotify Camp Nou\n🌎 Ciudad: Barcelona\n📅 Fecha: 16/09/2026\n🕐 Hora Perú: 15:30\n🇵🇪 Zona horaria: America/Lima\n⏱️ Duración calendario: 2 horas
+UID:fc-barcelona-racing-club-laliga-2026-2026-09-16@partidos-chatgpt
+DTSTAMP:20260916T200000Z
+DTSTART;TZID=America/Lima:20260916T143000
+DTEND;TZID=America/Lima:20260916T163000
+SUMMARY:⚽ FC Barcelona 🆚 R. Racing Club · LaLiga EA SPORTS
+LOCATION:Spotify Camp Nou, Barcelona
+DESCRIPTION:🏆 Competición: LaLiga EA SPORTS\n📋 Jornada: 5\n🏠 Local: FC Barcelona\n✈️ Visitante: R. Racing Club\n📍 Estadio: Spotify Camp Nou\n🌎 Ciudad: Barcelona\n📅 Fecha Perú: 16/09/2026\n🕐 Hora Perú: 14:30\n🌍 Hora original: 21:30 Europe/Madrid\n🇵🇪 Zona horaria final: America/Lima\n⏱️ Duración calendario: 2 horas
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -32,11 +33,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:manchester-united-brighton-premier-league-2026-2026-09-16@partidos-chatgpt
-DTSTAMP:20260916T183000Z
-DTSTART;TZID=America/Lima:20260916T160000
-DTEND;TZID=America/Lima:20260916T180000
+DTSTAMP:20260916T200000Z
+DTSTART;TZID=America/Lima:20260916T150000
+DTEND;TZID=America/Lima:20260916T170000
 SUMMARY:⚽ Manchester United 🆚 Brighton & Hove Albion · Premier League
-DESCRIPTION:🏆 Competición: Premier League\n📋 Jornada: 4\n🏠 Local: Manchester United\n✈️ Visitante: Brighton & Hove Albion\n📍 Estadio: Old Trafford\n🌎 Ciudad: Manchester\n📅 Fecha: 16/09/2026\n🕐 Hora Perú: 16:00\n🇵🇪 Zona horaria: America/Lima\n⏱️ Duración calendario: 2 horas
+LOCATION:Old Trafford, Manchester
+DESCRIPTION:🏆 Competición: Premier League\n📋 Jornada: 5\n🏠 Local: Manchester United\n✈️ Visitante: Brighton & Hove Albion\n📍 Estadio: Old Trafford\n🌎 Ciudad: Manchester\n📅 Fecha Perú: 16/09/2026\n🕐 Hora Perú: 15:00\n🌍 Hora original: 21:00 Europe/London\n🇵🇪 Zona horaria final: America/Lima\n⏱️ Duración calendario: 2 horas
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -46,12 +48,13 @@ DESCRIPTION:⚽ ¡El partido comienza en 5 minutos!
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:universitario-de-deportes-deportivo-garcilaso-liga-1-2026-2026-09-19@partidos-chatgpt
-DTSTAMP:20260916T183000Z
-DTSTART;TZID=America/Lima:20260919T23:00
-DTEND;TZID=America/Lima:20260920T01:00
-SUMMARY:⚽ Universitario de Deportes 🆚 Deportivo Garcilaso · Liga 1
-DESCRIPTION:🏆 Competición: Liga 1\n📋 Jornada: 10\n🏠 Local: Universitario de Deportes\n✈️ Visitante: Deportivo Garcilaso\n📍 Estadio: Estadio Monumental\n🌎 Ciudad: Lima\n📅 Fecha: 19/09/2026\n🕐 Hora Perú: 23:00\n🇵🇪 Zona horaria: America/Lima\n⏱️ Duración calendario: 2 horas
+UID:universitario-de-deportes-deportivo-garcilaso-liga-1-2026-2026-09-16@partidos-chatgpt
+DTSTAMP:20260916T200000Z
+DTSTART;TZID=America/Lima:20260916T150000
+DTEND;TZID=America/Lima:20260916T170000
+SUMMARY:⚽ Universitario de Deportes 🆚 Deportivo Garcilaso · Liga 1 Te Apuesto
+LOCATION:Estadio Monumental U, Lima
+DESCRIPTION:🏆 Competición: Liga 1 Te Apuesto\n📋 Fecha: 10\n🏠 Local: Universitario de Deportes\n✈️ Visitante: Deportivo Garcilaso\n📍 Estadio: Estadio Monumental U\n🌎 Ciudad: Lima\n📅 Fecha Perú: 16/09/2026\n🕐 Hora Perú: 15:00\n🌍 Hora original: 15:00 America/Lima\n🇵🇪 Zona horaria final: America/Lima\n⏱️ Duración calendario: 2 horas
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
