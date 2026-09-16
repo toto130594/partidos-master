@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#07111f" />
+  <title>Mis Partidos ⚽</title>
+  <meta
+    name="description"
+    content="Calendario de próximos partidos de FC Barcelona, Manchester United y Universitario de Deportes."
+  />
+
+  <style>
+    :root {
+      --bg: #07111f;
+      --bg-2: #0b1728;
+      --card: rgba(255,255,255,.07);
+      --card-border: rgba(255,255,255,.12);
+      --text: #f7f9fc;
+      --muted: #a8b4c7;
+      --accent: #5ee7ff;
+      --accent-2: #7c5cff;
+      --success: #5ee0a0;
+      --shadow: 0 18px 60px rgba(0,0,0,.28);
+      --radius: 24px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+        "Segoe UI", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 10% 10%, rgba(94,231,255,.14), transparent 30%),
+        radial-gradient(circle at 90% 20%, rgba(124,92,255,.18), transparent 32%),
+        linear-gradient(180deg, var(--bg) 0%, #091321 45%, #050a12 100%);
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .page {
+      width: min(1120px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 28px 0 48px;
+    }
+
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 44px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 800;
+      letter-spacing: -.02em;
+    }
+
+    .brand-mark {
+      display: grid;
+      place-items: center;
+      width: 42px;
+      height: 42px;
+      border-radius: 14px;
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      box-shadow: 0 10px 30px rgba(94,231,255,.16);
+      font-size: 21px;
+    }
+
+    .pill {
+      padding: 10px 14px;
+      border: 1px solid rgba(94,224,160,.28);
+      background: rgba(94,224,160,.08);
+      color: #bff8dc;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      padding: 54px;
+      border-radius: 34px;
+      border: 1px solid var(--card-border);
+      background:
+        linear-gradient(135deg, rgba(255,255,255,.09), rgba(255,255,255,.035));
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      width: 330px;
+      height: 330px;
+      border-radius: 50%;
+      right: -110px;
+      top: -110px;
+      background: radial-gradient(circle, rgba(94,231,255,.22), transparent 68%);
+      pointer-events: none;
+    }
+
+    .eyebrow {
+      color: var(--accent);
+      font-size: 14px;
+      font-weight: 800;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+
+    h1 {
+      max-width: 760px;
+      margin: 0;
+      font-size: clamp(42px, 8vw, 78px);
+      line-height: .98;
+      letter-spacing: -.055em;
+    }
+
+    .subtitle {
+      max-width: 720px;
+      margin: 22px 0 0;
+      color: var(--muted);
+      font-size: clamp(17px, 2vw, 20px);
+      line-height: 1.65;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 30px;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      min-height: 50px;
+      padding: 0 20px;
+      border-radius: 16px;
+      font-weight: 800;
+      transition: transform .2s ease, box-shadow .2s ease, background .2s ease;
+    }
+
+    .button:hover {
+      transform: translateY(-2px);
+    }
+
+    .button.primary {
+      color: #04111a;
+      background: linear-gradient(135deg, var(--accent), #9af3ff);
+      box-shadow: 0 12px 30px rgba(94,231,255,.18);
+    }
+
+    .button.secondary {
+      border: 1px solid var(--card-border);
+      background: rgba(255,255,255,.06);
+      color: var(--text);
+    }
+
+    .section {
+      margin-top: 26px;
+    }
+
+    .section-title {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 16px;
+      margin: 40px 4px 16px;
+    }
+
+    .section-title h2 {
+      margin: 0;
+      font-size: 25px;
+      letter-spacing: -.03em;
+    }
+
+    .section-title span {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .teams {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+
+    .team-card {
+      min-height: 190px;
+      padding: 24px;
+      border-radius: var(--radius);
+      border: 1px solid var(--card-border);
+      background: var(--card);
+      box-shadow: var(--shadow);
+      transition: transform .2s ease, border-color .2s ease;
+    }
+
+    .team-card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(255,255,255,.22);
+    }
+
+    .team-badge {
+      display: grid;
+      place-items: center;
+      width: 54px;
+      height: 54px;
+      border-radius: 18px;
+      margin-bottom: 28px;
+      font-weight: 900;
+      font-size: 17px;
+      background: rgba(255,255,255,.1);
+      border: 1px solid rgba(255,255,255,.1);
+    }
+
+    .team-card h3 {
+      margin: 0 0 8px;
+      font-size: 20px;
+      letter-spacing: -.02em;
+    }
+
+    .team-card p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.5;
+      font-size: 14px;
+    }
+
+    .info-grid {
+      display: grid;
+      grid-template-columns: 1.2fr .8fr;
+      gap: 16px;
+    }
+
+    .panel {
+      padding: 26px;
+      border-radius: var(--radius);
+      border: 1px solid var(--card-border);
+      background: var(--card);
+      box-shadow: var(--shadow);
+    }
+
+    .panel h3 {
+      margin: 0 0 12px;
+      font-size: 19px;
+    }
+
+    .steps {
+      margin: 0;
+      padding-left: 20px;
+      color: var(--muted);
+      line-height: 1.8;
+    }
+
+    .url-box {
+      margin-top: 14px;
+      padding: 15px 16px;
+      border-radius: 14px;
+      background: rgba(0,0,0,.22);
+      border: 1px solid rgba(255,255,255,.08);
+      color: #d7e7f5;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 13px;
+      overflow-wrap: anywhere;
+    }
+
+    .status {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: #c9f8df;
+      font-weight: 700;
+      margin-top: 12px;
+    }
+
+    .status-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--success);
+      box-shadow: 0 0 18px rgba(94,224,160,.7);
+    }
+
+    footer {
+      margin-top: 40px;
+      padding: 24px 4px 8px;
+      color: #77869b;
+      font-size: 13px;
+      text-align: center;
+    }
+
+    @media (max-width: 820px) {
+      .hero {
+        padding: 34px 24px;
+      }
+
+      .teams,
+      .info-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .topbar {
+        margin-bottom: 28px;
+      }
+
+      .pill {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="page">
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-mark">⚽</div>
+        <div>Mis Partidos</div>
+      </div>
+      <div class="pill">Calendario actualizado</div>
+    </header>
+
+    <section class="hero">
+      <div class="eyebrow">Calendario de fútbol</div>
+      <h1>Todos mis partidos, en un solo calendario.</h1>
+      <p class="subtitle">
+        Sigue los próximos encuentros de FC Barcelona, Manchester United y
+        Universitario de Deportes directamente desde tu calendario.
+      </p>
+
+      <div class="actions">
+        <a class="button primary" href="./Partidos.ics">
+          📅 Abrir calendario
+        </a>
+        <a class="button secondary" href="#como-usarlo">
+          Ver cómo agregarlo
+        </a>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-title">
+        <h2>Mis equipos</h2>
+        <span>Partidos oficiales</span>
+      </div>
+
+      <div class="teams">
+        <article class="team-card">
+          <div class="team-badge">FCB</div>
+          <h3>FC Barcelona</h3>
+          <p>LaLiga, Champions League, Copa del Rey y demás competiciones oficiales.</p>
+        </article>
+
+        <article class="team-card">
+          <div class="team-badge">MU</div>
+          <h3>Manchester United</h3>
+          <p>Premier League, competiciones europeas y torneos oficiales.</p>
+        </article>
+
+        <article class="team-card">
+          <div class="team-badge">U</div>
+          <h3>Universitario</h3>
+          <p>Liga 1, competiciones CONMEBOL y demás partidos oficiales.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="como-usarlo">
+      <div class="section-title">
+        <h2>Agregar al iPhone</h2>
+        <span>Una sola vez</span>
+      </div>
+
+      <div class="info-grid">
+        <div class="panel">
+          <h3>📱 Suscribirte desde Calendario</h3>
+          <ol class="steps">
+            <li>Abre la app Calendario en tu iPhone.</li>
+            <li>Entra en <strong>Calendarios</strong>.</li>
+            <li>Toca <strong>Agregar calendario</strong>.</li>
+            <li>Selecciona <strong>Agregar calendario de suscripción</strong>.</li>
+            <li>Pega la dirección pública de <strong>Partidos.ics</strong>.</li>
+          </ol>
+        </div>
+
+        <div class="panel">
+          <h3>🔄 Actualización</h3>
+          <p style="color: var(--muted); line-height: 1.7; margin: 0;">
+            El archivo <strong>Partidos.ics</strong> puede actualizarse desde tu
+            automatización. Al mantener siempre la misma URL, el calendario
+            suscrito podrá recibir los cambios.
+          </p>
+
+          <div class="status">
+            <span class="status-dot"></span>
+            URL permanente
+          </div>
+
+          <div class="url-box">
+            https://TUUSUARIO.github.io/calendario-partidos/Partidos.ics
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <span>⚽ Mis Partidos · <span id="year"></span></span>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
