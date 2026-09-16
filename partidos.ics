@@ -16,13 +16,13 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fc-barcelona-racing-club-laliga-2026-2026-09-16@partidos-chatgpt
+UID:fc-barcelona-racing-de-santander-laliga-2026-2027-6@partidos-chatgpt
 DTSTAMP:20260916T185000Z
-DTSTART;TZID=America/Lima:20260916T163000
-DTEND;TZID=America/Lima:20260916T183000
-SUMMARY:⚽ FC Barcelona 🆚 R. Racing Club · LaLiga EA SPORTS
+DTSTART;TZID=America/Lima:20260916T153000
+DTEND;TZID=America/Lima:20260916T173000
+SUMMARY:⚽ FC Barcelona 🆚 Racing de Santander · LaLiga
 LOCATION:Spotify Camp Nou, Barcelona
-DESCRIPTION:🏆 Competición: LaLiga EA SPORTS\n📋 Jornada: 5\n🏠 Local: FC Barcelona\n✈️ Visitante: R. Racing Club\n📍 Estadio: Spotify Camp Nou\n🌎 Ciudad: Barcelona\n📅 Fecha: 16/09/2026\n🕐 Hora Perú: 16:30\n🇵🇪 Zona horaria: America/Lima\n⏱️ Duración calendario: 2 horas
+DESCRIPTION:🏆 Competición: LaLiga\n📋 Jornada: 6\n🏠 Local: FC Barcelona\n✈️ Visitante: Racing de Santander\n📍 Estadio: Spotify Camp Nou\n🌎 Ciudad: Barcelona\n📅 Fecha: 16/09/2026\n🕐 Hora Perú: 15:30\n🇵🇪 Zona horaria: America/Lima\n⏱️ Duración calendario: 2 horas
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -32,93 +32,13 @@ DESCRIPTION:⚽ ¡El partido comienza en 5 minutos!
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fc-barcelona-sevilla-fc-laliga-2026-2026-09-19@partidos-chatgpt
-DTSTAMP:20260916T185000Z
-DTSTART;TZID=America/Lima:20260919T160000
-DTEND;TZID=America/Lima:20260919T180000
-SUMMARY:⚽ FC Barcelona 🆚 Sevilla FC · LaLiga EA SPORTS
-LOCATION:Ramón Sánchez Pizjuán, Sevilla
-DESCRIPTION:🏆 Competición: LaLiga EA SPORTS\n📋 Jornada: 6\n🏠 Local: Sevilla FC\n✈️ Visitante: FC Barcelona\n📍 Estadio: Ramón Sánchez Pizjuán\n🌎 Ciudad: Sevilla\n📅 Fecha: 19/09/2026\n🕐 Hora Perú: 16:00\n🇵🇪 Zona horaria: America/Lima\n⏱️ Duración calendario: 2 horas
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:⚽ ¡El partido comienza en 5 minutos!
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fc-barcelona-getafe-cf-laliga-2026-2026-10-10@partidos-chatgpt
-DTSTAMP:20260916T185000Z
-DTSTART;TZID=America/Lima:20261010T133000
-DTEND;TZID=America/Lima:20261010T153000
-SUMMARY:⚽ FC Barcelona 🆚 Getafe CF · LaLiga EA SPORTS
-LOCATION:Spotify Camp Nou, Barcelona
-DESCRIPTION:🏆 Competición: LaLiga EA SPORTS\n📋 Jornada: 7\n🏠 Local: FC Barcelona\n✈️ Visitante: Getafe CF\n📍 Estadio: Spotify Camp Nou\n🌎 Ciudad: Barcelona\n📅 Fecha: 10/10/2026\n🕐 Hora Perú: 13:30\n🇵🇪 Zona horaria: America/Lima\n⏱️ Duración calendario: 2 horas
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:⚽ ¡El partido comienza en 5 minutos!
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fc-barcelona-galatasaray-uefa-champions-league-2026-2026-10-13@partidos-chatgpt
-DTSTAMP:20260916T185000Z
-DTSTART;TZID=America/Lima:20261013T160000
-DTEND;TZID=America/Lima:20261013T180000
-SUMMARY:⚽ FC Barcelona 🆚 Galatasaray · UEFA Champions League
-LOCATION:Türk Telekom Stadium, Estambul
-DESCRIPTION:🏆 Competición: UEFA Champions League\n📋 Jornada: 2\n🏠 Local: Galatasaray\n✈️ Visitante: FC Barcelona\n📍 Estadio: Türk Telekom Stadium\n🌎 Ciudad: Estambul\n📅 Fecha: 13/10/2026\n🕐 Hora Perú: 16:00\n🇵🇪 Zona horaria: America/Lima\n⏱️ Duración calendario: 2 horas
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:⚽ ¡El partido comienza en 5 minutos!
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fc-barcelona-psg-uefa-champions-league-2026-2026-10-20@partidos-chatgpt
-DTSTAMP:20260916T185000Z
-DTSTART;TZID=America/Lima:20261020T160000
-DTEND;TZID=America/Lima:20261020T180000
-SUMMARY:⚽ FC Barcelona 🆚 PSG · UEFA Champions League
-LOCATION:Parc des Princes, París
-DESCRIPTION:🏆 Competición: UEFA Champions League\n📋 Jornada: 3\n🏠 Local: PSG\n✈️ Visitante: FC Barcelona\n📍 Estadio: Parc des Princes\n🌎 Ciudad: París\n📅 Fecha: 20/10/2026\n🕐 Hora Perú: 16:00\n🇵🇪 Zona horaria: America/Lima\n⏱️ Duración calendario: 2 horas
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:⚽ ¡El partido comienza en 5 minutos!
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fc-barcelona-real-madrid-laliga-2026-2026-10-25@partidos-chatgpt
-DTSTAMP:20260916T185000Z
-DTSTART;TZID=America/Lima:20261025T160000
-DTEND;TZID=America/Lima:20261025T180000
-SUMMARY:⚽ FC Barcelona 🆚 Real Madrid · LaLiga EA SPORTS
-LOCATION:Spotify Camp Nou, Barcelona
-DESCRIPTION:🏆 Competición: LaLiga EA SPORTS\n📋 Jornada: 8\n🏠 Local: FC Barcelona\n✈️ Visitante: Real Madrid\n📍 Estadio: Spotify Camp Nou\n🌎 Ciudad: Barcelona\n📅 Fecha: 25/10/2026\n🕐 Hora Perú: 16:00\n🇵🇪 Zona horaria: America/Lima\n⏱️ Duración calendario: 2 horas
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:⚽ ¡El partido comienza en 5 minutos!
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:manchester-united-manchester-city-premier-league-2026-2026-09-16@partidos-chatgpt
+UID:manchester-united-brighton-premier-league-2026-2027-6@partidos-chatgpt
 DTSTAMP:20260916T185000Z
 DTSTART;TZID=America/Lima:20260916T160000
 DTEND;TZID=America/Lima:20260916T180000
-SUMMARY:⚽ Manchester United 🆚 Manchester City · Premier League
+SUMMARY:⚽ Manchester United 🆚 Brighton & Hove Albion · Premier League
 LOCATION:Old Trafford, Manchester
-DESCRIPTION:🏆 Competición: Premier League\n📋 Jornada: 5\n🏠 Local: Manchester United\n✈️ Visitante: Manchester City\n📍 Estadio: Old Trafford\n🌎 Ciudad: Manchester\n📅 Fecha: 16/09/2026\n🕐 Hora Perú: 16:00\n🇵🇪 Zona horaria: America/Lima\n⏱️ Duración calendario: 2 horas
+DESCRIPTION:🏆 Competición: Premier League\n📋 Jornada: 6\n🏠 Local: Manchester United\n✈️ Visitante: Brighton & Hove Albion\n📍 Estadio: Old Trafford\n🌎 Ciudad: Manchester\n📅 Fecha: 16/09/2026\n🕐 Hora Perú: 16:00\n🇵🇪 Zona horaria: America/Lima\n⏱️ Duración calendario: 2 horas
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
@@ -128,45 +48,13 @@ DESCRIPTION:⚽ ¡El partido comienza en 5 minutos!
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:manchester-united-brighton-and-hove-albion-league-cup-2026-2026-09-16@partidos-chatgpt
+UID:universitario-de-deportes-alianza-lima-liga-1-2026-2027-6@partidos-chatgpt
 DTSTAMP:20260916T185000Z
 DTSTART;TZID=America/Lima:20260916T160000
 DTEND;TZID=America/Lima:20260916T180000
-SUMMARY:⚽ Manchester United 🆚 Brighton & Hove Albion · Carabao Cup
-LOCATION:Old Trafford, Manchester
-DESCRIPTION:🏆 Competición: Carabao Cup\n📋 Ronda: 3\n🏠 Local: Manchester United\n✈️ Visitante: Brighton & Hove Albion\n📍 Estadio: Old Trafford\n🌎 Ciudad: Manchester\n📅 Fecha: 16/09/2026\n🕐 Hora Perú: 16:00\n🇵🇪 Zona horaria: America/Lima\n⏱️ Duración calendario: 2 horas
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:⚽ ¡El partido comienza en 5 minutos!
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:manchester-united-ipswich-town-championship-2026-2026-09-16@partidos-chatgpt
-DTSTAMP:20260916T185000Z
-DTSTART;TZID=America/Lima:20260916T160000
-DTEND;TZID=America/Lima:20260916T180000
-SUMMARY:⚽ Manchester United 🆚 Ipswich Town · EFL Championship
-LOCATION:Old Trafford, Manchester
-DESCRIPTION:🏆 Competición: EFL Championship\n📋 Jornada: 5\n🏠 Local: Manchester United\n✈️ Visitante: Ipswich Town\n📍 Estadio: Old Trafford\n🌎 Ciudad: Manchester\n📅 Fecha: 16/09/2026\n🕐 Hora Perú: 16:00\n🇵🇪 Zona horaria: America/Lima\n⏱️ Duración calendario: 2 horas
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:⚽ ¡El partido comienza en 5 minutos!
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:universitario-de-deportes-deportivo-garcilaso-liga-1-2026-2026-09-19@partidos-chatgpt
-DTSTAMP:20260916T185000Z
-DTSTART;TZID=America/Lima:20260919T180000
-DTEND;TZID=America/Lima:20260919T200000
-SUMMARY:⚽ Universitario de Deportes 🆚 Deportivo Garcilaso · Liga 1
-LOCATION:Estadio Inca Garcilaso de la Vega, Cusco
-DESCRIPTION:🏆 Competición: Liga 1\n📋 Fecha: 10\n🏠 Local: Deportivo Garcilaso\n✈️ Visitante: Universitario de Deportes\n📍 Estadio: Estadio Inca Garcilaso de la Vega\n🌎 Ciudad: Cusco\n📅 Fecha: 19/09/2026\n🕐 Hora Perú: 18:00\n🇵🇪 Zona horaria: America/Lima\n⏱️ Duración calendario: 2 horas
+SUMMARY:⚽ Universitario de Deportes 🆚 Alianza Lima · Liga 1
+LOCATION:Estadio Monumental, Lima
+DESCRIPTION:🏆 Competición: Liga 1\n📋 Jornada: 6\n🏠 Local: Universitario de Deportes\n✈️ Visitante: Alianza Lima\n📍 Estadio: Estadio Monumental\n🌎 Ciudad: Lima\n📅 Fecha: 16/09/2026\n🕐 Hora Perú: 16:00\n🇵🇪 Zona horaria: America/Lima\n⏱️ Duración calendario: 2 horas
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
