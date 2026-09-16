@@ -26,12 +26,12 @@ DESCRIPTION:\uc0\u9917  El partido comienza en 5 minutos\
 END:VALARM\
 END:VEVENT\
 BEGIN:VEVENT\
-UID:manchester-united-brighton-carabao-cup-2026-27-3@partidos-chatgpt\
+UID:manchester-united-brighton-efl-cup-2026-27-3@partidos-chatgpt\
 DTSTAMP:20260916T180000Z\
 DTSTART;TZID=America/Lima:20260916T160000\
 DTEND;TZID=America/Lima:20260916T180000\
 SUMMARY:\uc0\u9917  Manchester United vs Brighton & Hove Albion\
-DESCRIPTION:Competici\'f3n: Carabao Cup\\nEquipo: Manchester United\\nRival: Brighton & Hove Albion\\nZona horaria: America/Lima\
+DESCRIPTION:Competici\'f3n: EFL Cup\\nEquipo: Manchester United\\nRival: Brighton & Hove Albion\\nZona horaria: America/Lima\
 STATUS:CONFIRMED\
 BEGIN:VALARM\
 TRIGGER:-PT5M\
