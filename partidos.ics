@@ -12,7 +12,7 @@ METHOD:PUBLISH\
 X-WR-CALNAME:Mis Partidos\
 X-WR-TIMEZONE:America/Lima\
 BEGIN:VEVENT\
-UID:barcelona-racing-santander-la-liga-2026-27-jornada-6@partidos-chatgpt\
+UID:barcelona-racing-santander-la-liga-2026-27-6@partidos-chatgpt\
 DTSTAMP:20260916T180000Z\
 DTSTART;TZID=America/Lima:20260916T153000\
 DTEND;TZID=America/Lima:20260916T173000\
@@ -26,12 +26,12 @@ DESCRIPTION:\uc0\u9917  El partido comienza en 5 minutos\
 END:VALARM\
 END:VEVENT\
 BEGIN:VEVENT\
-UID:manchester-united-brighton-premier-league-2026-27-jornada-5@partidos-chatgpt\
+UID:manchester-united-brighton-carabao-cup-2026-27-3@partidos-chatgpt\
 DTSTAMP:20260916T180000Z\
 DTSTART;TZID=America/Lima:20260916T160000\
 DTEND;TZID=America/Lima:20260916T180000\
 SUMMARY:\uc0\u9917  Manchester United vs Brighton & Hove Albion\
-DESCRIPTION:Competici\'f3n: Premier League\\nEquipo: Manchester United\\nRival: Brighton & Hove Albion\\nZona horaria: America/Lima\
+DESCRIPTION:Competici\'f3n: Carabao Cup\\nEquipo: Manchester United\\nRival: Brighton & Hove Albion\\nZona horaria: America/Lima\
 STATUS:CONFIRMED\
 BEGIN:VALARM\
 TRIGGER:-PT5M\
@@ -40,10 +40,10 @@ DESCRIPTION:\uc0\u9917  El partido comienza en 5 minutos\
 END:VALARM\
 END:VEVENT\
 BEGIN:VEVENT\
-UID:universitario-de-deportes-de-peru-deportivo-garcilaso-liga-1-2026-27-jornada-5@partidos-chatgpt\
+UID:universitario-de-deportes-deportivo-garcilaso-liga-1-2026-27-10@partidos-chatgpt\
 DTSTAMP:20260916T180000Z\
-DTSTART;TZID=America/Lima:20260919T20:00\
-DTEND;TZID=America/Lima:20260919T22:00\
+DTSTART;TZID=America/Lima:20260920T010000\
+DTEND;TZID=America/Lima:20260920T030000\
 SUMMARY:\uc0\u9917  Universitario de Deportes vs Deportivo Garcilaso\
 DESCRIPTION:Competici\'f3n: Liga 1\\nEquipo: Universitario de Deportes\\nRival: Deportivo Garcilaso\\nZona horaria: America/Lima\
 STATUS:CONFIRMED\
