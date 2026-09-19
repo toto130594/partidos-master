@@ -6,8 +6,8 @@ METHOD:PUBLISH
 X-WR-CALNAME:Mis Partidos
 X-WR-TIMEZONE:America/Lima
 BEGIN:VEVENT
-UID:fc-barcelona-sevilla-la-liga-2026-2027-7@partidos-chatgpt
-DTSTAMP:20260919T165700Z
+UID:barcelona-sevilla-laliga-2026-07@partidos-chatgpt
+DTSTAMP:20260919T183600Z
 DTSTART;TZID=America/Lima:20260919T160000
 DTEND;TZID=America/Lima:20260919T180000
 SUMMARY:⚽ FC Barcelona vs Sevilla FC
@@ -20,8 +20,8 @@ DESCRIPTION:⚽ El partido comienza en 5 minutos
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fc-barcelona-getafe-la-liga-2026-2027-8@partidos-chatgpt
-DTSTAMP:20260919T165700Z
+UID:barcelona-getafe-laliga-2026-08@partidos-chatgpt
+DTSTAMP:20260919T183600Z
 DTSTART;TZID=America/Lima:20261010T113000
 DTEND;TZID=America/Lima:20261010T133000
 SUMMARY:⚽ FC Barcelona vs Getafe CF
@@ -34,12 +34,12 @@ DESCRIPTION:⚽ El partido comienza en 5 minutos
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fc-barcelona-galatasaray-uefa-champions-league-2026-2027-2@partidos-chatgpt
-DTSTAMP:20260919T165700Z
+UID:barcelona-galatasaray-uefa-champions-league-2026-02@partidos-chatgpt
+DTSTAMP:20260919T183600Z
 DTSTART;TZID=America/Lima:20261013T160000
 DTEND;TZID=America/Lima:20261013T180000
-SUMMARY:⚽ Galatasaray vs FC Barcelona
-DESCRIPTION:Competición: UEFA Champions League\nEquipo: FC Barcelona\nRival: Galatasaray\nZona horaria: America/Lima
+SUMMARY:⚽ FC Barcelona vs Galatasaray S.K.
+DESCRIPTION:Competición: UEFA Champions League\nEquipo: FC Barcelona\nRival: Galatasaray S.K.\nZona horaria: America/Lima
 STATUS:CONFIRMED
 BEGIN:VALARM
 TRIGGER:-PT5M
@@ -48,12 +48,12 @@ DESCRIPTION:⚽ El partido comienza en 5 minutos
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fc-barcelona-real-betis-la-liga-2026-2027-9@partidos-chatgpt
-DTSTAMP:20260919T165700Z
+UID:barcelona-real-betis-laliga-2026-09@partidos-chatgpt
+DTSTAMP:20260919T183600Z
 DTSTART;TZID=America/Lima:20261017T113000
 DTEND;TZID=America/Lima:20261017T133000
-SUMMARY:⚽ Real Betis vs FC Barcelona
-DESCRIPTION:Competición: La Liga\nEquipo: FC Barcelona\nRival: Real Betis\nZona horaria: America/Lima
+SUMMARY:⚽ FC Barcelona vs Real Betis Balompié
+DESCRIPTION:Competición: La Liga\nEquipo: FC Barcelona\nRival: Real Betis Balompié\nZona horaria: America/Lima
 STATUS:CONFIRMED
 BEGIN:VALARM
 TRIGGER:-PT5M
@@ -62,11 +62,11 @@ DESCRIPTION:⚽ El partido comienza en 5 minutos
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fc-barcelona-paris-saint-germain-uefa-champions-league-2026-2027-3@partidos-chatgpt
-DTSTAMP:20260919T165700Z
+UID:barcelona-psg-uefa-champions-league-2026-03@partidos-chatgpt
+DTSTAMP:20260919T183600Z
 DTSTART;TZID=America/Lima:20261020T160000
 DTEND;TZID=America/Lima:20261020T180000
-SUMMARY:⚽ Paris Saint-Germain vs FC Barcelona
+SUMMARY:⚽ FC Barcelona vs Paris Saint-Germain
 DESCRIPTION:Competición: UEFA Champions League\nEquipo: FC Barcelona\nRival: Paris Saint-Germain\nZona horaria: America/Lima
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -76,12 +76,12 @@ DESCRIPTION:⚽ El partido comienza en 5 minutos
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fc-barcelona-real-madrid-la-liga-2026-2027-10@partidos-chatgpt
-DTSTAMP:20260919T165700Z
-DTSTART;TZID=America/Lima:20261024T160000
-DTEND;TZID=America/Lima:20261024T180000
-SUMMARY:⚽ FC Barcelona vs Real Madrid
-DESCRIPTION:Competición: La Liga\nEquipo: FC Barcelona\nRival: Real Madrid\nZona horaria: America/Lima
+UID:barcelona-real-madrid-laliga-2026-10@partidos-chatgpt
+DTSTAMP:20260919T183600Z
+DTSTART;TZID=America/Lima:20261025T160000
+DTEND;TZID=America/Lima:20261025T180000
+SUMMARY:⚽ FC Barcelona vs Real Madrid CF
+DESCRIPTION:Competición: La Liga\nEquipo: FC Barcelona\nRival: Real Madrid CF\nZona horaria: America/Lima
 STATUS:CONFIRMED
 BEGIN:VALARM
 TRIGGER:-PT5M
@@ -90,12 +90,12 @@ DESCRIPTION:⚽ El partido comienza en 5 minutos
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:manchester-united-fulham-premier-league-2026-2027-5@partidos-chatgpt
-DTSTAMP:20260919T165700Z
+UID:manchester-united-fulham-fc-premier-league-2026-05@partidos-chatgpt
+DTSTAMP:20260919T183600Z
 DTSTART;TZID=America/Lima:20260920T103000
 DTEND;TZID=America/Lima:20260920T123000
-SUMMARY:⚽ Fulham vs Manchester United
-DESCRIPTION:Competición: Premier League\nEquipo: Manchester United\nRival: Fulham\nZona horaria: America/Lima
+SUMMARY:⚽ Manchester United FC vs Fulham FC
+DESCRIPTION:Competición: Premier League\nEquipo: Manchester United FC\nRival: Fulham FC\nZona horaria: America/Lima
 STATUS:CONFIRMED
 BEGIN:VALARM
 TRIGGER:-PT5M
@@ -104,12 +104,12 @@ DESCRIPTION:⚽ El partido comienza en 5 minutos
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:manchester-united-tottenham-hotspur-premier-league-2026-2027-6@partidos-chatgpt
-DTSTAMP:20260919T165700Z
+UID:manchester-united-tottenham-hotspur-premier-league-2026-06@partidos-chatgpt
+DTSTAMP:20260919T183600Z
 DTSTART;TZID=America/Lima:20261010T103000
 DTEND;TZID=America/Lima:20261010T123000
-SUMMARY:⚽ Manchester United vs Tottenham Hotspur
-DESCRIPTION:Competición: Premier League\nEquipo: Manchester United\nRival: Tottenham Hotspur\nZona horaria: America/Lima
+SUMMARY:⚽ Manchester United FC vs Tottenham Hotspur FC
+DESCRIPTION:Competición: Premier League\nEquipo: Manchester United FC\nRival: Tottenham Hotspur FC\nZona horaria: America/Lima
 STATUS:CONFIRMED
 BEGIN:VALARM
 TRIGGER:-PT5M
@@ -118,12 +118,12 @@ DESCRIPTION:⚽ El partido comienza en 5 minutos
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:manchester-united-atletico-madrid-uefa-champions-league-2026-2027-2@partidos-chatgpt
-DTSTAMP:20260919T165700Z
+UID:manchester-united-atletico-madrid-uefa-champions-league-2026-02@partidos-chatgpt
+DTSTAMP:20260919T183600Z
 DTSTART;TZID=America/Lima:20261013T160000
 DTEND;TZID=America/Lima:20261013T180000
-SUMMARY:⚽ Atlético de Madrid vs Manchester United
-DESCRIPTION:Competición: UEFA Champions League\nEquipo: Manchester United\nRival: Atlético de Madrid\nZona horaria: America/Lima
+SUMMARY:⚽ Manchester United FC vs Atlético de Madrid
+DESCRIPTION:Competición: UEFA Champions League\nEquipo: Manchester United FC\nRival: Atlético de Madrid\nZona horaria: America/Lima
 STATUS:CONFIRMED
 BEGIN:VALARM
 TRIGGER:-PT5M
@@ -132,12 +132,12 @@ DESCRIPTION:⚽ El partido comienza en 5 minutos
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:manchester-united-leeds-united-premier-league-2026-2027-7@partidos-chatgpt
-DTSTAMP:20260919T165700Z
-DTSTART;TZID=America/Lima:20261018T103000
-DTEND;TZID=America/Lima:20261018T123000
-SUMMARY:⚽ Leeds United vs Manchester United
-DESCRIPTION:Competición: Premier League\nEquipo: Manchester United\nRival: Leeds United\nZona horaria: America/Lima
+UID:manchester-united-leeds-united-premier-league-2026-07@partidos-chatgpt
+DTSTAMP:20260919T183600Z
+DTSTART;TZID=America/Lima:20261018T100000
+DTEND;TZID=America/Lima:20261018T120000
+SUMMARY:⚽ Manchester United FC vs Leeds United FC
+DESCRIPTION:Competición: Premier League\nEquipo: Manchester United FC\nRival: Leeds United FC\nZona horaria: America/Lima
 STATUS:CONFIRMED
 BEGIN:VALARM
 TRIGGER:-PT5M
@@ -146,12 +146,12 @@ DESCRIPTION:⚽ El partido comienza en 5 minutos
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:manchester-united-como-1907-uefa-champions-league-2026-2027-3@partidos-chatgpt
-DTSTAMP:20260919T165700Z
+UID:manchester-united-como-1907-uefa-champions-league-2026-03@partidos-chatgpt
+DTSTAMP:20260919T183600Z
 DTSTART;TZID=America/Lima:20261021T160000
 DTEND;TZID=America/Lima:20261021T180000
-SUMMARY:⚽ Como 1907 vs Manchester United
-DESCRIPTION:Competición: UEFA Champions League\nEquipo: Manchester United\nRival: Como 1907\nZona horaria: America/Lima
+SUMMARY:⚽ Manchester United FC vs Como 1907
+DESCRIPTION:Competición: UEFA Champions League\nEquipo: Manchester United FC\nRival: Como 1907\nZona horaria: America/Lima
 STATUS:CONFIRMED
 BEGIN:VALARM
 TRIGGER:-PT5M
@@ -160,11 +160,11 @@ DESCRIPTION:⚽ El partido comienza en 5 minutos
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:universitario-de-deportes-deportivo-garcilaso-liga-1-2026-2027-10@partidos-chatgpt
-DTSTAMP:20260919T165700Z
-DTSTART;TZID=America/Lima:20260919T220000
-DTEND;TZID=America/Lima:20260919T240000
-SUMMARY:⚽ Deportivo Garcilaso vs Universitario de Deportes
+UID:universitario-de-deportes-deportivo-garcilaso-liga-1-2026-10@partidos-chatgpt
+DTSTAMP:20260919T183600Z
+DTSTART;TZID=America/Lima:20260920T01:00
+DTEND;TZID=America/Lima:20260920T03:00
+SUMMARY:⚽ Universitario de Deportes vs Deportivo Garcilaso
 DESCRIPTION:Competición: Liga 1\nEquipo: Universitario de Deportes\nRival: Deportivo Garcilaso\nZona horaria: America/Lima
 STATUS:CONFIRMED
 BEGIN:VALARM
@@ -174,10 +174,10 @@ DESCRIPTION:⚽ El partido comienza en 5 minutos
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:universitario-de-deportes-fbc-melgar-liga-1-2026-2027-11@partidos-chatgpt
-DTSTAMP:20260919T165700Z
-DTSTART;TZID=America/Lima:20261010T000000
-DTEND;TZID=America/Lima:20261010T020000
+UID:universitario-de-deportes-fbc-melgar-liga-1-2026-11@partidos-chatgpt
+DTSTAMP:20260919T183600Z
+DTSTART;TZID=America/Lima:20261011T02:00
+DTEND;TZID=America/Lima:20261011T04:00
 SUMMARY:⚽ Universitario de Deportes vs FBC Melgar
 DESCRIPTION:Competición: Liga 1\nEquipo: Universitario de Deportes\nRival: FBC Melgar\nZona horaria: America/Lima
 STATUS:CONFIRMED
@@ -188,26 +188,12 @@ DESCRIPTION:⚽ El partido comienza en 5 minutos
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:universitario-de-deportes-alianza-atletico-liga-1-2026-2027-12@partidos-chatgpt
-DTSTAMP:20260919T165700Z
-DTSTART;TZID=America/Lima:20261017T000000
-DTEND;TZID=America/Lima:02061017T020000
-SUMMARY:⚽ Alianza Atlético vs Universitario de Deportes
+UID:universitario-de-deportes-alianza-atletico-liga-1-2026-12@partidos-chatgpt
+DTSTAMP:20260919T183600Z
+DTSTART;TZID=America/Lima:20261018T22:30
+DTEND;TZID=America/Lima:20261019T00:30
+SUMMARY:⚽ Universitario de Deportes vs Alianza Atlético
 DESCRIPTION:Competición: Liga 1\nEquipo: Universitario de Deportes\nRival: Alianza Atlético\nZona horaria: America/Lima
-STATUS:CONFIRMED
-BEGIN:VALARM
-TRIGGER:-PT5M
-ACTION:DISPLAY
-DESCRIPTION:⚽ El partido comienza en 5 minutos
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:universitario-de-deportes-juan-pablo-ii-liga-1-2026-2027-13@partidos-chatgpt
-DTSTAMP:20260919T165700Z
-DTSTART;TZID=America/Lima:20261024T213000
-DTEND;TZID=America/Lima:20261024T233000
-SUMMARY:⚽ Universitario de Deportes vs Juan Pablo II College
-DESCRIPTION:Competición: Liga 1\nEquipo: Universitario de Deportes\nRival: Juan Pablo II College\nZona horaria: America/Lima
 STATUS:CONFIRMED
 BEGIN:VALARM
 TRIGGER:-PT5M
